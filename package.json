@@ -1,0 +1,19 @@
+{
+  "name": "aebeautysalon",
+  "version": "1.0.0",
+  "description": "Projeto Salão Autoestima",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rique05/aebeautysalon-node.git"
+  },
+  "author": "Fanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rique05/aebeautysalon-node/issues"
+  },
+  "homepage": "https://github.com/Rique05/aebeautysalon-node#readme"
+}
