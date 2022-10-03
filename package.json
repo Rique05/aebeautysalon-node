@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Rique05/aebeautysalon-node#readme",
   "dependencies": {
     "@prisma/client": "^4.4.0",
+    "bootstrap": "^5.2.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "mustache-express": "^1.3.2"

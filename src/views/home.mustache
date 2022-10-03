@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página Home</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="../public/bootstrap/bootstrap.min.css" >
+        
+    </head>
+
+    <body>
+            <div class="container">
+                <h1>
+                    {{#user}}
+                        {{nome}}
+                    {{/user}}        
+                </h1>
+
+                <h2>
+                    {{#user}}
+                        {{email}}
+                    {{/user}}
+                </h2>
+            </div>
+       
+        <script>src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="../public/bootstrap/bootstrap.min.js"></script>
+    </body>
+
+</html>

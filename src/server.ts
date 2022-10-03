@@ -10,6 +10,7 @@ dotenv.config();
 //Cria uma instancia express para o servidor
 const server = express();
 
+//Configuração do Mustache
 //define o template engine que será utilizado
 server.set('view engine', 'mustache');
 //define o caminho dos arquivos de view
@@ -21,7 +22,7 @@ server.engine('mustache', mustache());
 server.use(express.static(path.join(__dirname,'../public')));
 
 //rotas
-//define a rota principal (index.ts)
+//define as rotas principais (index.ts)
 server.use(mainRoutes);
 
 //rota para pagina não encontrada
